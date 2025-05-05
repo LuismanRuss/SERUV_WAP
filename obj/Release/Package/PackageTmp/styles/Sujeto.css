@@ -1,0 +1,28 @@
+﻿.active /*Indicar apartado seleccionado*/
+{
+    background:#F0FFE0;
+}
+
+.cont_justificacion /*Campo de justificación de exclusión de anexos*/ 
+{
+    padding: 0 5px 5px 35px;    
+}
+
+.div_ctdobligaciones /*Despliegue de las cantidades de obligaciones que tiene el sujeto obligado*/
+{    
+    text-align: center;    
+    background-color: #ebebeb;
+    height: 27px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: .875em;
+}
+
+#agp_DatosEnlace /*Capa agrupadora para desplegar la información correspondiente al enlace operativo*/
+{    
+    background-color: #f5f5f5;
+    width: 99%;
+    height: auto;    
+    padding: .5em .5em .5em .5em;
+    
+}

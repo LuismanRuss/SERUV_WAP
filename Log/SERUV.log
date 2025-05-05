@@ -1,0 +1,16 @@
+﻿************************
+      Fecha : LUNES, 22 DE ABRIL DE 2013
+       Hora : 12:12 p.m.
+Descripción : Índice fuera de los límites de la matriz.
+
+     Origen : App_Web_cfs0e04r
+     Método : Void Page_Load(System.Object, System.EventArgs)
+       Pila :    en SATADMINI.Page_Load(Object sender, EventArgs e) en c:\inetpub\wwwroot\SERUV\Administracion\SATADMINI.aspx.cs:línea 16
+   en System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   en System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   en System.Web.UI.Control.OnLoad(EventArgs e)
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+************************
+
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://dsia.uv.mx/WsPortal/wsSistemas/wsSERUVNotif/wsSERUVNotif.asmx?wsdl" docRef="https://dsia.uv.mx/WsPortal/wsSistemas/wsSERUVNotif/wsSERUVNotif.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://dsia.uv.mx/WsPortal/wsSistemas/wsSERUVNotif/wsSERUVNotif.asmx" xmlns:q1="http://tempuri.org/" binding="q1:wsSeruvNotifSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://dsia.uv.mx/WsPortal/wsSistemas/wsSERUVNotif/wsSERUVNotif.asmx" xmlns:q2="http://tempuri.org/" binding="q2:wsSeruvNotifSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
