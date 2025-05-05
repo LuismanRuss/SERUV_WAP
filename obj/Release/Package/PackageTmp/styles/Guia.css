@@ -1,0 +1,12 @@
+﻿.requeridog /*código requerido alta anexo*/
+{
+	visibility:hidden;	
+	margin-right:1.5em;
+	color: red;
+	font-size: .9em;
+	padding-left: 36em;    
+}
+
+a {
+	text-decoration: none;
+}

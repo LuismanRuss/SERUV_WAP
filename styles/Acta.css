@@ -1,0 +1,336 @@
+﻿.contenidoColor
+{
+	background-color:#f5f5f5;
+	height: 19px;
+	margin-top:.5em;
+	padding-left: 0px;
+	padding-top:0px;
+	width: 98%;
+} 
+/*Títulos páginas**/
+.a8por
+{
+	width:6%;
+	padding-left:1%;
+	padding-right:1%;
+}
+.a10por
+{
+	width:8%;
+	padding-left:1%;
+	padding-right:1%;
+}
+.a20por
+{
+	width:18%;
+	padding-left:1%;
+	padding-right:1%;
+}
+.box2Columnas
+{
+	float:left;
+	margin:0;
+	padding:0;
+	width:50%;		
+}
+.box3Columnas
+{
+	float:left;
+	margin:0;
+	padding:0;
+	width:30%;		
+}
+.box4Columnas
+{
+	float:left;
+	margin:0;
+	padding:0;
+	width:25%;		
+}
+.boxVColorConCOL
+{
+	background-color:#f5f5f5;
+	height:2em;
+	width:99%;
+	margin-top:.2em;
+	margin-bottom:.2em;
+	padding-top:.2em;
+	padding-bottom:.6em;
+	font-weight: bold;
+}
+.boxVColorSinCOL
+{	
+	width:99%;
+	height:2em;
+	margin-top:.2em;
+	margin-bottom:.2em;
+	padding-top:.2em;
+	padding-bottom:.4em;
+}
+.boxVColorCon
+{
+	background-color:#f5f5f5;
+	clear:both;
+	width:99%;
+	margin-top:.2em;
+	margin-bottom:.2em;
+	padding-top:.1em;
+	padding-bottom:.5em;
+}
+.boxVColorSin
+{	
+	clear:both;
+	width:99%;
+	margin-top:.2em;
+	margin-bottom:.2em;
+	padding-top:.1em;
+	padding-bottom:.5em;
+}
+.boxColorCon
+{
+	background-color:#f5f5f5;
+	width:99%;	
+	margin-top:.2em;
+	margin-bottom:.2em;
+	padding-top:.2em;
+	padding-bottom:.3em;
+}
+.boxColorSin
+{	
+	width:99%;
+	margin-top:.2em;
+	margin-bottom:.2em;
+	padding-top:.5em;
+	padding-bottom:.3em;
+}
+.btn_regresar
+{
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-left:1em;
+	margin-right:auto;
+}
+
+.contenidoSinColorArea100
+{
+	clear:both;
+	height: 135px;
+	margin-top:.5em;
+	padding-bottom:0px;
+	padding-top:0px;
+	width: 98%;
+}
+.contenidoColorArea100
+{
+	background-color:#f5f5f5;
+	clear:both;
+	height: 135px;
+	margin-top:.5em;
+	padding-bottom:0px;
+	padding-top:0px;
+	width: 98%;
+}
+.dAlto
+{
+	height:1.8em;
+	padding:0 !important;
+	padding-top:.3em !important;
+	padding-bottom:.3em !important;
+}
+.dLabelForm
+{
+	float:left;
+	width:20%;	
+}
+.dLabelForm label
+{
+	display:block;
+	height:25px;
+}
+.dInputForm2
+{
+	float:left;
+	margin-top:-.2em;
+	width:40%;	
+}
+.dLabel /*Div usado para etiquetas tipo label (sin input)*/
+{
+	display:inline;
+	font-weight:bold;
+}
+.dText /*Div usado para valor de un campo (tipo input)*/
+{
+	display:inline;
+}
+/*Barra de filtros de busqueda*/
+.filtros
+	{
+	    background-color: #f5f5f5;
+	    width: 98%;
+	    text-align: right;
+	    color: #003300;
+	    font-size: 12px;
+	    font-weight: bold;
+	    height: 15px;	
+	    margin-top: 1em;
+	    clear: both;
+	}
+
+
+/*Capa para imagen de Carga*/	
+.preloader
+	{		
+		color: #000033;
+		float: left;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0.5em;
+		text-align: center;		
+		visibility:hidden;
+		width: 99%;
+	}	
+
+/*Ruta de Navegación INTERNA*/
+.rutanavegacion
+	{
+        background-color: #f5f5f5;
+        margin-bottom:1em;
+}	
+.titSeccion,.conSeccion
+{
+	clear:both;
+	display:block;
+}
+.conSeccion
+{
+	border-left:dotted 1px #89B7D9;
+	border-right:dotted 1px #89B7D9;
+}
+.titSeccion
+{
+	background-color:#89B7D9;
+	height:2em;
+}
+.titSeccion .dLabelA
+{
+	background-color:#89B7D9;
+	color:#ffffff;
+	cursor:pointer;
+	float:left;
+	font-size:1.2em;
+	font-weight:bold;
+	width:87%;
+}
+.titSeccion .dActionA
+{	
+	background-color:#89B7D9;
+	color:#ffffff;
+	cursor:pointer;
+	float:left;
+	font-weight:bold;
+	padding-left:1%;
+	width:2%;
+}
+.titSeccion .dIcoA
+{	
+	background-color:#89B7D9;
+	color:#ffffff;
+	float:left;
+	font-weight:bold;
+	width:10%;
+}
+/*Tablas del grid*/	
+
+.tooltip div.corto
+{
+	width:25%;
+}
+.tooltip div.mini
+{
+    width:30%;
+    
+}
+
+/*Capa para desplegar contenido*/
+#tabcontent
+	{
+		min-height: 330px;
+		margin-top: 10px;
+		margin-left: 0px;
+		padding:0;
+		clear: both;
+	}	
+	
+/*Posición del botón GUARDAR*/
+.PBGuardar
+	{
+        margin-top: 10px;        
+        margin-left: 20em;
+        display: inline-block; 
+        font-size: 2em;
+        font-weight: bold;       
+    }
+    
+
+
+/*Posición del botón CANCELAR*/
+.PBCancelar
+	{
+        margin-top: 10px;        
+        margin-left: 1em;
+	    display: inline-block;
+	}
+	
+	
+	
+/*************************************************/
+/*                                css for timepicker                                  */
+/*************************************************/	
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+
+
+
+/***BVV***/
+.a_bloques /* Capa para los bloques */
+{
+    	    
+    padding: 5px 5px 5px 5px;
+	text-align: center;	
+	/*width: 50%;*/
+	float: left;					
+}
+    .a_bloques a
+    {	
+	    padding: 5px 5px 5px 5px;
+	    white-space:nowrap;
+	    vertical-align:top;
+    }
+    .accBloq
+    {	
+	    background-position-x:right;
+	    background-color: #036;
+	    color:#fff !important;
+	    height:auto;
+	    cursor:pointer;	
+    }
+    .accInaBloq , .accBloq:hover
+    {	
+	    background-position-x:right;
+	    background-color: #369;
+	    color:#fff !important;
+	    height: 29px;
+    }
+    .accInaBloq
+    {	
+	    cursor:default;
+	    text-decoration:none !important;
+	    background-color: #369;
+	    color:#fff !important;	
+	    height: 40px;
+    }

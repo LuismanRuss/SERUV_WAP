@@ -1,0 +1,25 @@
+﻿#agp_MsgPeriodo /*Capa agrupadora para desplegar la información correspondiente a los usuarios*/
+{    
+    background-color: #f5f5f5;
+    width: 99%;
+    height: auto;    
+    padding: .5em .5em .5em .5em;
+    margin-left: 10px;
+}
+
+
+#d_frecuencia /*Estilo para desplegar los dias de la semana en la creación de un mensaje*/
+{
+    font-size: .8em;
+    padding: 0;    
+}
+
+.radio_cen /*Alineación de los radio aplicables a la frecuencia de mensajes*/
+{
+    padding-left: .5em;    
+}
+
+.div_respuesta /*Campo para la respuesta a la notificación*/ 
+{
+    padding: 0 5px 5px 35px;    
+}

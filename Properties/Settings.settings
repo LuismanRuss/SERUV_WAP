@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SERUV_WAP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SERUV_WAP_srvxaddweb_wsGetInfoEmpleado" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://srvxaddweb/WSPortal/wsSistemas/wsgetinfoempleado/wsgetinfoempleado.asmx</Value>
+    </Setting>
+    <Setting Name="SERUV_WAP_wsGetInfoEmpleado_PROD_wsGetInfoEmpleado" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://dsia.uv.mx/WSPortal/wsSistemas/wsGetInfoEmpleado/wsGetInfoEmpleado.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

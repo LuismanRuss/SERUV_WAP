@@ -1,0 +1,35 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="General_SGDCARZIP" Codebehind="SGDCARZIP.aspx.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        // Función para cerrar la ventana
+        function CerrarVentana() {
+            window.close();
+        }
+
+        // Función para abrir el loading (Cargando datos.)
+        function AbrirLoading() {
+            loading.ini();
+        }
+
+        // Función para cerrar el loading (Cargando datos.)
+        function CerrarLoading() {
+            loading.close();
+        }
+
+    </script>
+
+    <form id="form1" runat="server">
+    <div>
+        
+    </div>
+    </form>
+</body>
+</html>

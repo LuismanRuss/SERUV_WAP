@@ -1,0 +1,29 @@
+﻿#agp_DatosUsuarios /*Capa agrupadora para desplegar la información correspondiente a los usuarios*/
+{    
+    background-color: #f5f5f5;
+    width: 99%;
+    height: auto;    
+    padding: .5em .5em .5em .5em;    
+}
+
+#agp_DatosUsua /*Capa agrupadora para desplegar la información correspondiente a los usuarios*/
+{    
+    background-color: #f5f5f5;
+    width: 90%;
+    height: auto;    
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+}
+
+
+.ackDialog /*Mostrar la ventana con el listado de diferentes tipos de perfil*/
+{
+	display:block;	
+}
+
+
+.opc_UsrPerfil
+{
+    width: 50%;
+    background-color: Red;
+}

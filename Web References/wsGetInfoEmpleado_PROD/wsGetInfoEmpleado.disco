@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://dsia.uv.mx/WSPortal/wsSistemas/wsGetInfoEmpleado/wsGetInfoEmpleado.asmx?wsdl" docRef="https://dsia.uv.mx/WSPortal/wsSistemas/wsGetInfoEmpleado/wsGetInfoEmpleado.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://dsia.uv.mx/WSPortal/wsSistemas/wsGetInfoEmpleado/wsGetInfoEmpleado.asmx" xmlns:q1="http://xalapa.intra.uv.mx/" binding="q1:wsGetInfoEmpleadoSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://dsia.uv.mx/WSPortal/wsSistemas/wsGetInfoEmpleado/wsGetInfoEmpleado.asmx" xmlns:q2="http://xalapa.intra.uv.mx/" binding="q2:wsGetInfoEmpleadoSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

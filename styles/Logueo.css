@@ -1,0 +1,70 @@
+﻿.div_Table
+{
+    display: table;
+    border-spacing: 3px;
+    width: 100%;
+}
+
+.div_TableRow
+{
+    display: table-row;
+    width: 50%;
+}
+
+.div_TableRow_ToRight
+{
+    display: table-row;
+    text-align: right;
+    width: 50%;
+}
+
+.div_TableCell
+{
+    display: table-cell;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+
+.div_Message
+{
+    display: table;
+    border-spacing: 0px;
+    color: Red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    vertical-align: top;
+    width: 100%;
+}
+
+.span
+{
+    color: #005000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.textboxBlur
+{
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+}
+
+.textbox
+{
+    color: #003366;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.button
+{
+    background-color: #005000;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+}

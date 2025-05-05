@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://xalapa.intra.uv.mx/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://xalapa.intra.uv.mx/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Servicio de recuperación de información de un Empleado.</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://xalapa.intra.uv.mx/">
+      <s:element name="funGetInfoEmpleado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sLogin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sBD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="funGetInfoEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="funGetInfoEmpleadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="funGetInfoEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:funGetInfoEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="funGetInfoEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:funGetInfoEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsGetInfoEmpleadoSoap">
+    <wsdl:operation name="funGetInfoEmpleado">
+      <wsdl:input message="tns:funGetInfoEmpleadoSoapIn" />
+      <wsdl:output message="tns:funGetInfoEmpleadoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsGetInfoEmpleadoSoap" type="tns:wsGetInfoEmpleadoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="funGetInfoEmpleado">
+      <soap:operation soapAction="http://xalapa.intra.uv.mx/funGetInfoEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsGetInfoEmpleadoSoap12" type="tns:wsGetInfoEmpleadoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="funGetInfoEmpleado">
+      <soap12:operation soapAction="http://xalapa.intra.uv.mx/funGetInfoEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsGetInfoEmpleado">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Servicio de recuperación de información de un Empleado.</wsdl:documentation>
+    <wsdl:port name="wsGetInfoEmpleadoSoap" binding="tns:wsGetInfoEmpleadoSoap">
+      <soap:address location="https://dsia.uv.mx/WSPortal/wsSistemas/wsGetInfoEmpleado/wsGetInfoEmpleado.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsGetInfoEmpleadoSoap12" binding="tns:wsGetInfoEmpleadoSoap12">
+      <soap12:address location="https://dsia.uv.mx/WSPortal/wsSistemas/wsGetInfoEmpleado/wsGetInfoEmpleado.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
